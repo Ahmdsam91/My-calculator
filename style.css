@@ -1,0 +1,42 @@
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: teal;
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+.cal{
+    background-color: #3a4452;
+    width: 400px;
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+}
+.container .cal div input{
+    padding: 10px;
+    margin: 10px;
+    width: 60px;
+    height: 60px;
+    font-size: 18px;
+    border-radius: 5px;
+    color: white;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 3px 10px;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    background: transparent;
+
+}
+.container .cal div .input-enter{
+    width: 75%;
+    background-color: white;
+    box-shadow: none;
+    cursor: auto;
+    color: black;
+    padding: 0 10px;
+}
